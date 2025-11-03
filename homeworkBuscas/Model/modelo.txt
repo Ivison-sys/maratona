@@ -13,7 +13,7 @@
 	// 	"description": "Log output to console"
 	// }
 	"Main": {
-		"prefix": "main",
+		"prefix": "tmain",
 		"body": [
 			"#include <bits/stdc++.h> ",
 			"#define nl << '\\n' ",
@@ -31,5 +31,31 @@
 			"}"
 		],
 		"description": "Template para maratona"
+	},
+
+	"Multcase": {
+		"prefix": "multcases",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"#define nl << '\\n'",
+			"#define ll long long",
+			"using namespace std; ",
+			"using vi = vector<int>; ",
+			" ",
+			"void solve(){",
+			"    $1",
+			"}",
+			" ",
+			"int main(){ ",
+			"    ios::sync_with_stdio(false);",
+			"    cin.tie(0); ",
+				" ",
+			"    int tc; cin >> tc; while(tc--){",
+			"        solve();",
+			"    }",
+				" ",
+			"    return 0; ",
+			"}",
+		]
 	}
 }

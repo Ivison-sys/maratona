@@ -8,7 +8,7 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(0); 
     
-    int qPares, qConsultas; cin >> qPares >> qConsultas;
+    int qPares; cin >> qPares;
     vector<pair<int, int>> ordens (qPares);
     int sz = qPares+qPares;
     vi v; v.reserve(sz);
@@ -31,11 +31,7 @@ int main(){
         psum[i+1] = contador[i] + psum[i]; 
     }
     
-    while(qConsultas--){
-        ll pos;
-        cin >> pos;
-        cout << psum[(upper_bound(v.begin(), v.end(), pos) - v.begin())] nl;
-    }
+    cout << *(max_element(psum.begin(), psum.end())) nl;
 
     return 0; 
 }

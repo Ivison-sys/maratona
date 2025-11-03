@@ -9,7 +9,7 @@ int main(){
     cin.tie(0); 
     
     int n; cin >> n;
-    int vidaA = 0, num, c=0;
+    ll vidaA = 0, num, c=0;
 
     while(n--){
         cin >> num;
