@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"/home/ivison/maratona/homeworkGrafos2/c.cpp","tests":[{"id":1764361565942,"input":"4 4\n1 2\n2 3\n1 3\n3 4\n3\n2 4 3","output":"1 2 3"},{"id":1764361573457,"input":"3 1\n1 2\n1\n1\n","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/ivison/maratona/homeworkGrafos2/c.cpp","group":"local","local":true}
