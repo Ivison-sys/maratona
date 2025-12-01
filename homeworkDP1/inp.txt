@@ -1,2 +1,2 @@
-ABCBDAB
-BDCAB
+5
+5 5 5 5 8
